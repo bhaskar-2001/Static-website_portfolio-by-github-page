@@ -12,19 +12,29 @@
   <!-- Dark/Light Toggle -->
   <button class="toggle" id="themeToggle"><i class="fas fa-moon"></i></button>
 
+  <!-- Navbar -->
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#education">Education</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
   <!-- Hero -->
-  <header>
+  <header id="home">
     <img src="profile.jpeg" alt="Bhaskar Kushwah">
     <h1>Bhaskar Kushwah</h1>
     <h2>Cloud & DevOps Engineer</h2>
     <p>
-      Highly motivated and results-oriented MCA graduate with experience in cloud platforms (AWS, Azure), containerization (Docker, Kubernetes), and DevOps. 
-      Skilled in automating infrastructure, CI/CD pipelines, and scalable deployments.
+      Highly motivated and results-oriented MCA graduate with experience in cloud platforms (AWS, Azure), 
+      containerization (Docker, Kubernetes), and DevOps. Skilled in automating infrastructure, CI/CD pipelines, 
+      and scalable deployments.
     </p>
   </header>
 
   <!-- Skills -->
-  <section>
+  <section id="skills">
     <h2>Skills</h2>
     <div class="skills-grid">
       <div class="skill-card"><i class="fab fa-aws"></i><span>AWS</span></div>
@@ -42,12 +52,45 @@
     </div>
   </section>
 
+  <!-- Projects -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>Full Stack CI/CD Pipeline</h3>
+        <p>Built and containerized a full-stack app, automated deployments using GitHub Actions, hosted on AWS EC2, and published images to DockerHub.</p>
+      </div>
+      <div class="card">
+        <h3>Multi-tier Architecture on AWS</h3>
+        <p>Deployed scalable 3-tier web app with EC2, RDS, and Auto Scaling. Secured with IAM roles & Security Groups, automated using Terraform/CloudFormation.</p>
+      </div>
+      <div class="card">
+        <h3>Static Website Hosting</h3>
+        <p>Deployed secure static website with S3, CloudFront, Route53, and ACM for HTTPS. Automated CI/CD with GitHub Actions.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education -->
+  <section id="education">
+    <h2>Education</h2>
+    <div class="timeline">
+      <div>
+        <h3>Master’s in Computer Applications (2023-2025)</h3>
+        <p>GLA University, Mathura</p>
+      </div>
+      <div>
+        <h3>B.Sc. in Mathematics (2019-2022)</h3>
+        <p>MAHGU, Uttarakhand</p>
+      </div>
+    </div>
+  </section>
+
   <!-- Contact -->
-  <section>
+  <section id="contact">
     <h2>Contact</h2>
     <div class="contact-card">
       <p>Email: <a href="mailto:bhaskarkushwah32@gmail.com">bhaskarkushwah32@gmail.com</a></p>
-      <p>Phone: +91 7017318021</p>
       <div class="social-icons">
         <a href="https://www.linkedin.com/in/bhaskar-kushwah/"><i class="fab fa-linkedin"></i></a>
         <a href="https://github.com/bhaskar9412349775"><i class="fab fa-github"></i></a>
