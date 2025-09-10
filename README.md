@@ -1,6 +1,6 @@
 # Static Website Portfolio — GitHub Pages - Task-6
 
-**Live Demo:** [Click Here](https://bhaskar9412349775.github.io/Static-website_portfolio-by-github-page/)
+**Live Demo:** [Click Here](https://bhaskar-2001.github.io/Static-website_portfolio-by-github-page/)
 
 ## - Project Overview
 
